@@ -1,0 +1,66 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+#about, #contact {
+    background: #f4f4f4;
+    margin-bottom: 1rem;
+}
+
+#projects .project {
+    background: #e2e2e2;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-left: 5px solid #333;
+}
+.imggap {
+    margin-right: 70px;
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}
