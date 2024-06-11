@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/gradient-dynamic-blue-lines-background_23-2148995756.jpg?t=st=1718105626~exp=1718109226~hmac=fd3fb8fb764d9aaaea59f4a9e090bce2bc5ca9a0b8f7f052dbd8c4ca2334365a&w=826');
+    border: 1px solid black;
+}
+.container {
+    width: 300px;
+    padding: 16px;
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+input {
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+p {
+    text-align: center;
+    font-style:normal;
+    font-size: small;
+    font-variant: small-caps;
+}
+.icon {
+    font-size:xx-large;
+}
+a{
+    color: white;
+}
+.user {
+    font-size: 50px;
+}
+h3 {
+    font-style: italic;
+}
