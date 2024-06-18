@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>contact  </title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <h1>Sustainable Development</h1>
+    <p>Please fill out this Form to reach us!</p>
+    <form method="post" action=''>
+        <fieldset>
+            <label for="category">Select category of your message:
+                <select id="category" name="category">
+                  <option value="">(select category)</option>
+                  <option value="1">General Queries</option>
+                  <option value="2">Partnership</option>
+                  <option value="3">Complaints</option>
+                  <option value="4">Development Queries</option>
+                </select>
+              </label>
+        </fieldset>
+      <fieldset>
+        <label for="name">Your Name: <input id="name" name="name" type="text" required /></label>
+        <label for="Organization">Organization/entity (if any): <input id="Organization" name="Organization" type="text" required /></label>
+        <label for="email">Your Email: <input id="email" name="email" type="email" required /></label>
+        <label for="Country">Subject: <input id="subject" name="subject" type="text" required /></label>
+      </fieldset>
+      <fieldset>
+        <label for="message">Message:
+          <textarea id="message" name="message" rows="3" cols="30" placeholder="Type your needs..."></textarea>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
