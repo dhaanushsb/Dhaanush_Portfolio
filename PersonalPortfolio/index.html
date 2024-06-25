@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="icon" href="./assets/icons8-portfolio-48.png"/>
+        <title>Landing page responsive portfolio</title>
+    </head>
+    <body>
+        <!-- OVERLAY -->
+        <div class="overlay first"></div>
+        <div class="overlay second"></div>
+        <div class="overlay third"></div>
+
+        <!-- HEADER -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">PortFolio</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <ion-icon name="menu"></ion-icon>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN -->
+        <main class="l-main bd-grid">
+            <div class="home">
+                <div class="home__information">
+                    <span class="home__pressent anime-text">Hello, My name is</span>
+                    <h1 class="home__title anime-text">Dhaanush SB</h1>
+                    <span class="home__skill anime-text">Web Developer</span>
+                    
+                    <div>
+                        <a href="./assets/deploy-667ac47343eb662947465614.pdf" download="Resume.pdf" class="home__button anime-text">DOWNLOAD CV</a>
+                    </div>
+                </div>
+
+                <div class="home__img">
+                    <img src="./assets/Snapchat-460291109-removebg-preview.png" alt="">
+                </div>
+                
+                <div class="home__social">
+                    <a href="https://github.com/dhaanushsb" class="home__social-icon-link">
+                        <ion-icon name="logo-github" class="home__social-icon"></ion-icon>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dhaanush-s-b-557293250/"> <ion-icon name="logo-linkedin" class="home__social-icon"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/" > <ion-icon name="logo-instagram" class="home__social-icon"></ion-icon>
+                    </a>
+                </div>
+
+            </div>
+        </main>
+
+        <!-- About Section-->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>[ Hi, I'm	Dhaanush S B,	a	student	learning	web	development.	I	am	passionate	about	creating	interactive	and	dynamic	websites.A	conscientious	Final
+                year	B.Sc	Computer	Science	student	known	for	honesty,	flexibility,	and	impeccable	time	management,	I	possess	a	basic	understanding	of	Data
+                 Structures	and	their	practical	applications.	Having	completed	the	"Introduction	to	Internet	of	Things"	course	with	distinction,	score	of	86%	in	NPTEL
+                 Certification.	Good	in	SQL;	foundational	understanding	of	HTML,	C++,	and	Python.	Committed	to	growth,	enthusiasm,	and	integrity,	commitment	to
+                 continuous	learning,	always	maintaining	a	positive	attitude.]</p>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML 5</li>
+                <li>CSS 3</li>
+                <li>Bootstrap 5</li>
+                <li>JavaScript</li>
+                <li>MySQL</li>
+                <li>Python</li>
+            </ul>
+        </section>
+
+         <!-- Services Section -->
+    <section id="services">
+        <div class="service">
+            <h2>Web Development</h2>
+            <p>Hello Sir/Mam, I'm <strong>Dhaanush</strong>. I offer comprehensive web development services tailored to meet your specific needs. Leveraging the latest technologies such as HTML, CSS, JavaScript, and Bootstrap, I can develop high-quality, responsive, and user-friendly websites.</p>
+        </div>
+        <!-- Additional services can be added here -->
+    </section>
+
+      <!-- Contact Section -->
+    <div class="visit">
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: <a href="mailto:dhaanushsb@gmail.com">dhaanushsb@gmail.com</a></p>
+        <p>Phone: +91 6383961962</p>
+    </section>
+    </div>
+        <!-- GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+        <!-- MAIN -->
+        <script src="./assets/script.js"></script>
+    
+        <!-- ICONS -->
+        <script  type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    </body>
+</html>
