@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alert using Bootstrap</title>
+    <script src="../js/app.js"></script>
+    <style>
+        #heading {
+            background-color: aqua;
+            text-align: center;
+        }
+        
+        #infoForm{
+            background-color: grey;
+            height: 100vh;
+            width: 100%;
+        }
+        
+        #infoForm input{
+            padding: 0 auto;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+        
+        button{
+            color: green;
+            border-radius: 10px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div id="heading">
+    <h1>Personal details</h1>
+    </div>
+    <form id="infoForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" value="Dhaanush" required><br><br>
+        
+        <label for="fatherName">Father's Name:</label>
+        <input type="text" id="fatherName" name="fatherName" required><br><br>
+        
+        <label for="motherName">Mother's Name:</label>
+        <input type="text" id="motherName" name="motherName" required><br><br>
+        
+        <label for="qualification">Qualification:</label>
+        <input type="text" id="qualification" name="qualification" required><br><br>
+        
+        <button type="button" onclick="showAlert()">Submit</button>
+    </form>
+
+    <script>        function showAlert() {
+        // Get form values
+        const username = document.getElementById('username').value;
+        const fatherName = document.getElementById('fatherName').value;
+        const motherName = document.getElementById('motherName').value;
+        const qualification = document.getElementById('qualification').value;
+
+        // Create alert message
+        const message = `Username: ${username} \n Father's Name: ${fatherName} \n Mother's Name: ${motherName} \n Qualification: ${qualification}`;
+        
+        // Display alert
+        alert(message);
+    }    </script>
+</body>
+</html>
